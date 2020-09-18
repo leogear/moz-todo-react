@@ -7,7 +7,8 @@ function App(props) {
     <Todo 
     id={task.id}
     name={task.name}
-    completed={task.completed} />
+    completed={task.completed} 
+    key={task.id}/>
   ));
 
   return (
