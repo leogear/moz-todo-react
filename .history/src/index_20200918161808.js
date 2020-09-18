@@ -10,4 +10,4 @@ const DATA = [
 ];
 
 
-ReactDOM.render(<App tasks={DATA} />,document.getElementById('root'));
+ReactDOM.render(<App task={DATA} />,document.getElementById('root'));

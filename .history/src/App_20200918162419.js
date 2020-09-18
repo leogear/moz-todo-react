@@ -4,10 +4,7 @@ import Todo from "./components/Todo";
 function App(props) {
 
   const taskList = props.tasks.map(task => (
-    <Todo 
-    id={task.id}
-    name={task.name}
-    completed={task.completed} />
+    <Todo id={task.id} name={task.name} completed={task.completed} />
   ));
 
   return (
@@ -54,6 +51,9 @@ function App(props) {
         aria-labelledby="list-heading"
       >
         {taskList}
+        {
+          const valesf= "asdsad";
+        }
       </ul>
     </div>
   );
